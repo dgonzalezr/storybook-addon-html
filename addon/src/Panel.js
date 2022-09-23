@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useChannel, useParameter } from '@storybook/api';
 
 import SyntaxHighlighter from './SyntaxHighlighter';
-import style from 'react-syntax-highlighter/dist/esm/styles/hljs/github-gist';
+import { atomOneDark as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { format as prettierFormat } from 'prettier/standalone';
 import prettierHtml from 'prettier/parser-html';
 
