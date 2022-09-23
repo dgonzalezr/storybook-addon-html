@@ -10,16 +10,16 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@storybook/addon-actions": "^6.1.21",
-    "@storybook/addon-essentials": "^6.1.21",
-    "@storybook/addon-links": "^6.1.21",
-    "@storybook/vue": "^6.1.21",
+    "@babel/core": "^7.19.1",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/vue": "^6.5.12",
     "@whitespace/storybook-addon-html": "*",
-    "babel-loader": "^8.2.2",
-    "jest": "^26.6.3",
-    "vue": "^2.6.12",
-    "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.12"
+    "babel-loader": "^8.2.5",
+    "jest": "^29.0.3",
+    "vue": "^3.2.39",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.7.10"
   }
 }
