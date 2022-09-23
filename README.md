@@ -10,13 +10,13 @@ story. It uses [highlight.js](https://highlightjs.org/) for syntax highlighting.
 With NPM:
 
 ```sh
-npm i --save-dev @whitespace/storybook-addon-html
+npm i --save-dev @dgonzalezr/storybook-addon-html
 ```
 
 With Yarn:
 
 ```sh
-yarn add -D @whitespace/storybook-addon-html
+yarn add -D @dgonzalezr/storybook-addon-html
 ```
 
 ### Register addon
@@ -27,7 +27,7 @@ yarn add -D @whitespace/storybook-addon-html
 module.exports = {
   // ...
   addons: [
-    '@whitespace/storybook-addon-html',
+    '@dgonzalezr/storybook-addon-html',
     // ...
   ],
 };
