@@ -1,1 +1,1 @@
-module.exports = require('./out/register');
+module.exports = require('./dist/register');
