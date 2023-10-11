@@ -1,5 +1,5 @@
 {
-  "name": "@whitespace/storybook-addon-html",
+  "name": "@beeq/storybook-addon-html",
   "version": "5.1.6",
   "description": "A Storybook addon that extracts and displays compiled syntax-highlighted HTML",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/whitespace-se/storybook-addon-html"
+    "url": "https://github.com/dgonzalezr/storybook-addon-html"
   },
   "author": "Whitespace <code@whitespace.se>",
   "license": "AGPL-3.0-or-later",
@@ -63,7 +63,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.11",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.1",
+    "prettier": "^3.0.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -79,7 +79,7 @@
     "@storybook/components": "^6.5.8 || ^7.0.12",
     "@storybook/core-events": "^6.5.8 || ^7.0.12",
     "@storybook/theming": "^6.5.8 || ^7.0.12",
-    "prettier": "^2.0.0",
+    "prettier": "^3.0.3",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-syntax-highlighter": "^15.0.0"
@@ -110,5 +110,5 @@
     ],
     "icon": "https://avatars1.githubusercontent.com/u/10450088?s=400&u=b2a95469b7d2addf63366a93a17f0bd06f9894cc&v=4"
   },
-  "dependencies": {}
+  "packageManager": "yarn@1.22.19"
 }
