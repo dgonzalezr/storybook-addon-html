@@ -1,7 +1,7 @@
 import React from "react";
+import nightOwl from "react-syntax-highlighter/dist/esm/styles/prism/night-owl";
 
 import SyntaxHighlighter from "./SyntaxHighlighter";
-import style from "react-syntax-highlighter/dist/esm/styles/hljs/github";
 
 /**
  * Checkout https://github.com/storybookjs/storybook/blob/next/code/addons/jest/src/components/Panel.tsx
@@ -9,10 +9,10 @@ import style from "react-syntax-highlighter/dist/esm/styles/hljs/github";
  */
 export const PanelContent = ({ code, showLineNumbers, wrapLines }) => (
   <SyntaxHighlighter
-    language={"xml"}
+    language={"jsx"}
     copyable={true}
     padded={true}
-    style={style}
+    style={nightOwl}
     showLineNumbers={showLineNumbers}
     wrapLines={wrapLines}
   >

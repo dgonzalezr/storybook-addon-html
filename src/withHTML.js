@@ -35,6 +35,6 @@ export const withHTML = makeDecorator({
   },
 });
 
-if (module && module.hot && module.hot.decline) {
+if (module?.hot?.decline) {
   module.hot.decline();
 }

@@ -3,7 +3,10 @@ import { styled } from "@storybook/theming";
 
 import { ActionBar, ScrollArea } from "@storybook/components";
 
-import ReactSyntaxHighlighter from "react-syntax-highlighter";
+import { PrismLight as ReactSyntaxHighlighter } from 'react-syntax-highlighter';
+import jsx from 'react-syntax-highlighter/dist/esm/languages/prism/jsx';
+
+ReactSyntaxHighlighter.registerLanguage('jsx', jsx);
 
 const Pre = styled.pre(({ theme, padded }) => ({
   display: "flex !important",
