@@ -1,4 +1,4 @@
-import { makeDecorator, useChannel } from "@storybook/addons";
+import { addons, makeDecorator } from "@storybook/preview-api";
 import { EVENTS } from "./constants";
 
 export const withHTML = makeDecorator({
@@ -6,7 +6,6 @@ export const withHTML = makeDecorator({
   parameterName: "html",
   skipIfNoParametersOrOptions: false,
   wrapper: (storyFn, context, { parameters = {} }) => {
-    const emit = useChannel({});
     setTimeout(() => {
       const rootSelector = parameters.root || "#storybook-root, #root";
       const root = document.querySelector(rootSelector);
@@ -29,7 +28,9 @@ export const withHTML = makeDecorator({
           console.error(e);
         }
       }
-      emit(EVENTS.CODE_UPDATE, { code, options: parameters });
+      addons
+        .getChannel()
+        .emit(EVENTS.CODE_UPDATE, { code, options: parameters });
     }, 0);
     return storyFn(context);
   },
